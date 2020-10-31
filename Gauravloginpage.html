@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+        body{
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+            font-size: 40px;
+            background: url(./bg.jpg) no-repeat;
+            background-size: cover;
+        }
+        .login-box{
+            width: 120px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+        .login-box h1{
+            
+            font-size: 40px;
+            border-bottom: 6px solid #4caf50;
+            margin-bottom: 40px;
+            padding: 13px 0;
+        }
+        .textbox{
+            width: 100%;
+            overflow: hidden;
+            font-size: 20px;
+            padding: 8px 0;
+            border-bottom: 1px solid  #4caf50;
+        }   
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h1>Login</h1>
+        <div class="textbox">
+            <input id = "username" type="text" placeholder="Username" name = "" value="">
+        </div>
+        <div class="textbox">
+            <input id = "password" type="password" placeholder="Password" name = "" value="">
+        </div>
+        <button type="button" onclick="getInfo()"> "Sign In" </button>
+    </div>
+    <script src="login.js">
+    </script>
+</body>
+</html>
