@@ -39,6 +39,7 @@ class SeriesSum
     }
     public static void main()
     {
+    // Amazing Project
         Scanner in=new Scanner (System.in);
         System.out.println("Enter the values of x and n");
         int x=in.nextInt();
